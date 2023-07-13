@@ -1,0 +1,22 @@
+body {
+    background-color: #f8f9fa; /* Use your desired background color */
+    backdrop-filter: blur(5px); /* Apply blur effect */
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    max-width: 400px;
+    background-color: #ffffff; /* Use your desired card background color */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.neumorphic-input {
+    background-color: #ffffff; /* Use your desired input field background color */
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1) inset, -5px -5px 20px rgba(255, 255, 255, 0.8) inset;
+}
